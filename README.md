@@ -100,11 +100,16 @@ US_states =
 
 
 require 'prime'
+
 num = gets.chomp
+
 n = 1
+
 Prime.each(num.to_i) do |prime|
+
     print "p#{n} -> #{prime}, "
     n += 1
+
 end
 
 
